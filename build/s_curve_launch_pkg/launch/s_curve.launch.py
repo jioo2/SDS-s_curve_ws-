@@ -1,1 +1,0 @@
-/root/s_curve_ws/src/s_curve_launch_pkg/launch/s_curve.launch.py

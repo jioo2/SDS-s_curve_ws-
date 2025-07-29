@@ -1,3 +1,0 @@
-[console_scripts]
-path_generation_node = path_generation_pkg.path_generation_node:main
-

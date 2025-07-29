@@ -1,3 +1,0 @@
-[console_scripts]
-cone_detector_node = cone_detector_dl_pkg.cone_detector_node:main
-

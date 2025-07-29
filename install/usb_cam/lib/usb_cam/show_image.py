@@ -1,1 +1,0 @@
-/root/s_curve_ws/src/usb_cam/scripts/show_image.py
