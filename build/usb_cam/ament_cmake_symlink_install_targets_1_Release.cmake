@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/s_curve_ws/build/usb_cam/libusb_cam.so" "/root/s_curve_ws/build/usb_cam/libusb_cam_node.so" "TARGETS" "usb_cam" "usb_cam_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib")

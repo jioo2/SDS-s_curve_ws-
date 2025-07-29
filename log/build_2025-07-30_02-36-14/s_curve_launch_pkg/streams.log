@@ -1,0 +1,20 @@
+[4.445s] Invoking command in '/root/s_curve_ws/src/s_curve_launch_pkg': PYTHONPATH=/root/s_curve_ws/build/s_curve_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/s_curve_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/s_curve_launch_pkg build --build-base /root/s_curve_ws/build/s_curve_launch_pkg/build install --record /root/s_curve_ws/build/s_curve_launch_pkg/install.log --single-version-externally-managed install_data
+[5.077s] running egg_info
+[5.077s] writing ../../build/s_curve_launch_pkg/s_curve_launch_pkg.egg-info/PKG-INFO
+[5.078s] writing dependency_links to ../../build/s_curve_launch_pkg/s_curve_launch_pkg.egg-info/dependency_links.txt
+[5.078s] writing entry points to ../../build/s_curve_launch_pkg/s_curve_launch_pkg.egg-info/entry_points.txt
+[5.079s] writing requirements to ../../build/s_curve_launch_pkg/s_curve_launch_pkg.egg-info/requires.txt
+[5.080s] writing top-level names to ../../build/s_curve_launch_pkg/s_curve_launch_pkg.egg-info/top_level.txt
+[5.084s] reading manifest file '../../build/s_curve_launch_pkg/s_curve_launch_pkg.egg-info/SOURCES.txt'
+[5.106s] writing manifest file '../../build/s_curve_launch_pkg/s_curve_launch_pkg.egg-info/SOURCES.txt'
+[5.106s] running build
+[5.106s] running build_py
+[5.106s] running install
+[5.106s] running install_lib
+[5.109s] running install_data
+[5.109s] running install_egg_info
+[5.113s] removing '/root/s_curve_ws/install/s_curve_launch_pkg/lib/python3.10/site-packages/s_curve_launch_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.114s] Copying ../../build/s_curve_launch_pkg/s_curve_launch_pkg.egg-info to /root/s_curve_ws/install/s_curve_launch_pkg/lib/python3.10/site-packages/s_curve_launch_pkg-0.0.0-py3.10.egg-info
+[5.140s] running install_scripts
+[5.191s] writing list of installed files to '/root/s_curve_ws/build/s_curve_launch_pkg/install.log'
+[5.409s] Invoked command in '/root/s_curve_ws/src/s_curve_launch_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/s_curve_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/s_curve_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/s_curve_launch_pkg build --build-base /root/s_curve_ws/build/s_curve_launch_pkg/build install --record /root/s_curve_ws/build/s_curve_launch_pkg/install.log --single-version-externally-managed install_data

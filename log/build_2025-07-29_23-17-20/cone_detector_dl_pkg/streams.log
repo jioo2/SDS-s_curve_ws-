@@ -1,0 +1,17 @@
+[2.784s] Invoking command in '/root/s_curve_ws/build/cone_detector_dl_pkg': PYTHONPATH=/root/s_curve_ws/build/cone_detector_dl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/cone_detector_dl_pkg/build --no-deps symlink_data
+[3.254s] running develop
+[3.538s] running egg_info
+[3.539s] writing cone_detector_dl_pkg.egg-info/PKG-INFO
+[3.540s] writing dependency_links to cone_detector_dl_pkg.egg-info/dependency_links.txt
+[3.540s] writing entry points to cone_detector_dl_pkg.egg-info/entry_points.txt
+[3.540s] writing requirements to cone_detector_dl_pkg.egg-info/requires.txt
+[3.543s] writing top-level names to cone_detector_dl_pkg.egg-info/top_level.txt
+[3.552s] reading manifest file 'cone_detector_dl_pkg.egg-info/SOURCES.txt'
+[3.553s] writing manifest file 'cone_detector_dl_pkg.egg-info/SOURCES.txt'
+[3.565s] running build_ext
+[3.565s] Creating /root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages/cone-detector-dl-pkg.egg-link (link to .)
+[3.611s] Installing cone_detector_node script to /root/s_curve_ws/install/cone_detector_dl_pkg/lib/cone_detector_dl_pkg
+[3.611s] 
+[3.612s] Installed /root/s_curve_ws/build/cone_detector_dl_pkg
+[3.612s] running symlink_data
+[3.678s] Invoked command in '/root/s_curve_ws/build/cone_detector_dl_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/cone_detector_dl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/cone_detector_dl_pkg/build --no-deps symlink_data

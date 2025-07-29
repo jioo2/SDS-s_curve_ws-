@@ -1,0 +1,21 @@
+[2.992s] Invoking command in '/root/s_curve_ws/src/path_generation_pkg': PYTHONPATH=/root/s_curve_ws/build/path_generation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/path_generation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_generation_pkg build --build-base /root/s_curve_ws/build/path_generation_pkg/build install --record /root/s_curve_ws/build/path_generation_pkg/install.log --single-version-externally-managed install_data
+[3.461s] running egg_info
+[3.462s] writing ../../build/path_generation_pkg/path_generation_pkg.egg-info/PKG-INFO
+[3.462s] writing dependency_links to ../../build/path_generation_pkg/path_generation_pkg.egg-info/dependency_links.txt
+[3.462s] writing entry points to ../../build/path_generation_pkg/path_generation_pkg.egg-info/entry_points.txt
+[3.463s] writing requirements to ../../build/path_generation_pkg/path_generation_pkg.egg-info/requires.txt
+[3.463s] writing top-level names to ../../build/path_generation_pkg/path_generation_pkg.egg-info/top_level.txt
+[3.468s] reading manifest file '../../build/path_generation_pkg/path_generation_pkg.egg-info/SOURCES.txt'
+[3.469s] writing manifest file '../../build/path_generation_pkg/path_generation_pkg.egg-info/SOURCES.txt'
+[3.474s] running build
+[3.474s] running build_py
+[3.474s] running install
+[3.475s] running install_lib
+[3.475s] running install_data
+[3.475s] running install_egg_info
+[3.478s] removing '/root/s_curve_ws/install/path_generation_pkg/lib/python3.10/site-packages/path_generation_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.479s] Copying ../../build/path_generation_pkg/path_generation_pkg.egg-info to /root/s_curve_ws/install/path_generation_pkg/lib/python3.10/site-packages/path_generation_pkg-0.0.0-py3.10.egg-info
+[3.486s] running install_scripts
+[3.537s] Installing path_generation_node script to /root/s_curve_ws/install/path_generation_pkg/lib/path_generation_pkg
+[3.538s] writing list of installed files to '/root/s_curve_ws/build/path_generation_pkg/install.log'
+[3.661s] Invoked command in '/root/s_curve_ws/src/path_generation_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/path_generation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/path_generation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_generation_pkg build --build-base /root/s_curve_ws/build/path_generation_pkg/build install --record /root/s_curve_ws/build/path_generation_pkg/install.log --single-version-externally-managed install_data

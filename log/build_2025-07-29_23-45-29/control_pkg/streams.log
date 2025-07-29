@@ -1,0 +1,17 @@
+[3.155s] Invoking command in '/root/s_curve_ws/build/control_pkg': PYTHONPATH=/root/s_curve_ws/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/control_pkg/build --no-deps symlink_data
+[3.717s] running develop
+[3.978s] running egg_info
+[3.980s] writing control_pkg.egg-info/PKG-INFO
+[3.985s] writing dependency_links to control_pkg.egg-info/dependency_links.txt
+[3.987s] writing entry points to control_pkg.egg-info/entry_points.txt
+[3.987s] writing requirements to control_pkg.egg-info/requires.txt
+[3.987s] writing top-level names to control_pkg.egg-info/top_level.txt
+[3.989s] reading manifest file 'control_pkg.egg-info/SOURCES.txt'
+[3.991s] writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+[3.994s] running build_ext
+[3.995s] Creating /root/s_curve_ws/install/control_pkg/lib/python3.10/site-packages/control-pkg.egg-link (link to .)
+[4.002s] Installing control_node script to /root/s_curve_ws/install/control_pkg/lib/control_pkg
+[4.002s] 
+[4.002s] Installed /root/s_curve_ws/build/control_pkg
+[4.002s] running symlink_data
+[4.106s] Invoked command in '/root/s_curve_ws/build/control_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/control_pkg/build --no-deps symlink_data

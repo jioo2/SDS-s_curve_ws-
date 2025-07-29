@@ -1,0 +1,1 @@
+/root/s_curve_ws/src/usb_cam/launch/__init__.py

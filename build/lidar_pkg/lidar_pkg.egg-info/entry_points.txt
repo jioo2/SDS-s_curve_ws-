@@ -1,0 +1,3 @@
+[console_scripts]
+lidar_sensor_node = lidar_pkg.lidar_sensor_node:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_fusion_node = sensor_fusion_pkg.sensor_fusion_node:main
+

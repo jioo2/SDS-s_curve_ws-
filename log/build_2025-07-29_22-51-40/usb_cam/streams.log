@@ -1,0 +1,36 @@
+[0.111s] Invoking command in '/root/s_curve_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/s_curve_ws/src/usb_cam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/s_curve_ws/install/usb_cam
+[0.410s] -- The C compiler identification is GNU 11.4.0
+[1.118s] -- The CXX compiler identification is GNU 11.4.0
+[1.640s] -- Detecting C compiler ABI info
+[1.877s] -- Detecting C compiler ABI info - done
+[1.885s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.885s] -- Detecting C compile features
+[1.886s] -- Detecting C compile features - done
+[1.889s] -- Detecting CXX compiler ABI info
+[2.082s] -- Detecting CXX compiler ABI info - done
+[2.090s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.091s] -- Detecting CXX compile features
+[2.091s] -- Detecting CXX compile features - done
+[2.094s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.256s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.347s] Traceback (most recent call last):
+[2.347s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[2.347s]     from ament_package.templates import get_environment_hook_template_path
+[2.347s] ModuleNotFoundError: No module named 'ament_package'
+[2.362s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[2.362s]   execute_process(/usr/bin/python3
+[2.362s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[2.363s]   /root/s_curve_ws/build/usb_cam/ament_cmake_package_templates/templates.cmake)
+[2.363s]   returned error code 1
+[2.363s] Call Stack (most recent call first):
+[2.363s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.363s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.363s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.363s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)
+[2.363s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)
+[2.363s]   CMakeLists.txt:13 (find_package)
+[2.363s] 
+[2.363s] 
+[2.363s] -- Configuring incomplete, errors occurred!
+[2.363s] See also "/root/s_curve_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[2.368s] Invoked command in '/root/s_curve_ws/build/usb_cam' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/s_curve_ws/src/usb_cam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/s_curve_ws/install/usb_cam

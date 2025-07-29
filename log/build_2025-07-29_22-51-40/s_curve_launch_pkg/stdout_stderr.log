@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating s_curve_launch_pkg.egg-info
+writing s_curve_launch_pkg.egg-info/PKG-INFO
+writing dependency_links to s_curve_launch_pkg.egg-info/dependency_links.txt
+writing entry points to s_curve_launch_pkg.egg-info/entry_points.txt
+writing requirements to s_curve_launch_pkg.egg-info/requires.txt
+writing top-level names to s_curve_launch_pkg.egg-info/top_level.txt
+writing manifest file 's_curve_launch_pkg.egg-info/SOURCES.txt'
+reading manifest file 's_curve_launch_pkg.egg-info/SOURCES.txt'
+writing manifest file 's_curve_launch_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/s_curve_ws/install/s_curve_launch_pkg/lib/python3.10/site-packages/s-curve-launch-pkg.egg-link (link to .)
+
+Installed /root/s_curve_ws/build/s_curve_launch_pkg
+running symlink_data
+creating /root/s_curve_ws/install/s_curve_launch_pkg/share/ament_index
+creating /root/s_curve_ws/install/s_curve_launch_pkg/share/ament_index/resource_index
+creating /root/s_curve_ws/install/s_curve_launch_pkg/share/ament_index/resource_index/packages
+symbolically linking /root/s_curve_ws/build/s_curve_launch_pkg/resource/s_curve_launch_pkg -> /root/s_curve_ws/install/s_curve_launch_pkg/share/ament_index/resource_index/packages
+symbolically linking /root/s_curve_ws/build/s_curve_launch_pkg/package.xml -> /root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg
+creating /root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/launch
+symbolically linking /root/s_curve_ws/build/s_curve_launch_pkg/launch/s_curve.launch.py -> /root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/launch
+creating /root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/config
+symbolically linking /root/s_curve_ws/build/s_curve_launch_pkg/config/ekf.yaml -> /root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/config

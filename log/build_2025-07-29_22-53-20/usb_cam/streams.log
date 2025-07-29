@@ -1,0 +1,117 @@
+[0.042s] Invoking command in '/root/s_curve_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/s_curve_ws/src/usb_cam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/s_curve_ws/install/usb_cam
+[0.074s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.287s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.689s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.706s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.792s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.795s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.897s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.196s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.437s] -- Looking for pthread.h
+[1.721s] -- Looking for pthread.h - found
+[1.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.953s] -- Found Threads: TRUE  
+[7.948s] -- Found OpenCV: /usr (found version "4.5.4") 
+[7.953s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[7.954s] -- Checking for module 'libavcodec'
+[7.971s] --   Found libavcodec, version 58.134.100
+[8.017s] -- Checking for module 'libavutil'
+[8.034s] --   Found libavutil, version 56.70.100
+[8.079s] -- Checking for module 'libswscale'
+[8.097s] --   Found libswscale, version 5.9.100
+[8.153s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.178s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.194s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.202s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.203s] -- Configured cppcheck include dirs: /root/s_curve_ws/src/usb_cam/include
+[8.203s] -- Configured cppcheck exclude dirs and/or files: 
+[8.207s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.207s] -- Configured cpplint exclude dirs and/or files: 
+[8.208s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.211s] -- Added test 'lint_cmake' to check CMake code style
+[8.212s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.216s] -- Added test 'uncrustify' to check C / C++ code style
+[8.216s] -- Configured uncrustify additional arguments: 
+[8.217s] -- Added test 'xmllint' to check XML markup files
+[8.221s] -- Configuring done
+[8.261s] -- Generating done
+[8.284s] -- Build files have been written to: /root/s_curve_ws/build/usb_cam
+[8.297s] Invoked command in '/root/s_curve_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/s_curve_ws/src/usb_cam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/s_curve_ws/install/usb_cam
+[8.300s] Invoking command in '/root/s_curve_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/s_curve_ws/build/usb_cam -- -j8 -l8
+[8.356s] [ 14%] Building CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o
+[8.356s] [ 14%] Building CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o
+[8.357s] [ 21%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[8.359s] [ 28%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[10.141s] [ 35%] Linking CXX static library libgtest_main.a
+[10.192s] [ 35%] Built target gtest_main
+[12.733s] [ 42%] Linking CXX shared library libusb_cam.so
+[13.158s] [ 42%] Built target usb_cam
+[13.185s] [ 50%] Building CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o
+[14.163s] [ 57%] Linking CXX executable usb_cam_node_exe
+[14.716s] [ 57%] Built target usb_cam_node_exe
+[19.119s] [ 64%] Linking CXX static library libgtest.a
+[19.164s] [ 64%] Built target gtest
+[19.192s] [ 71%] Building CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o
+[19.192s] [ 78%] Building CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o
+[21.753s] [ 85%] Linking CXX executable test_usb_cam_utils
+[22.261s] [ 85%] Built target test_usb_cam_utils
+[22.288s] [ 92%] Linking CXX executable test_pixel_formats
+[22.706s] [ 92%] Built target test_pixel_formats
+[27.171s] [100%] Linking CXX shared library libusb_cam_node.so
+[27.537s] [100%] Built target usb_cam_node
+[27.552s] Invoked command in '/root/s_curve_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/s_curve_ws/build/usb_cam -- -j8 -l8
+[27.564s] Invoking command in '/root/s_curve_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/s_curve_ws/build/usb_cam
+[27.572s] -- Install configuration: "Release"
+[27.573s] -- Execute custom install script
+[27.574s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[27.584s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[27.594s] -- Symlinking: /root/s_curve_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[27.604s] -- Symlinking: /root/s_curve_ws/install/usb_cam/lib/usb_cam/show_image.py
+[27.625s] -- Symlinking: /root/s_curve_ws/install/usb_cam/lib/libusb_cam.so
+[27.638s] -- Symlinking: /root/s_curve_ws/install/usb_cam/lib/libusb_cam_node.so
+[27.652s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/constants.hpp
+[27.662s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[27.673s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[27.685s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[27.694s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[27.705s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[27.714s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[27.724s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[27.734s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[27.744s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[27.757s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[27.769s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[27.786s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[27.797s] -- Symlinking: /root/s_curve_ws/install/usb_cam/include/usb_cam/utils.hpp
+[27.809s] -- Up-to-date symlink: /root/s_curve_ws/install/usb_cam/lib/libusb_cam_node.so
+[27.810s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[27.821s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[27.831s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[27.840s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[27.850s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[27.859s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[27.871s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[27.881s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[27.892s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[27.904s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[27.915s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[27.926s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[27.937s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[27.946s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[27.956s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[27.967s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[27.977s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/package.dsv
+[27.987s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[27.998s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[28.010s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[28.024s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.037s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.050s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[28.061s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[28.073s] -- Symlinking: /root/s_curve_ws/install/usb_cam/share/usb_cam/package.xml
+[28.090s] Invoked command in '/root/s_curve_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/s_curve_ws/build/usb_cam

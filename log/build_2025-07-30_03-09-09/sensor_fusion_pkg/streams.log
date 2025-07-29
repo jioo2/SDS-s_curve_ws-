@@ -1,0 +1,21 @@
+[3.091s] Invoking command in '/root/s_curve_ws/src/sensor_fusion_pkg': PYTHONPATH=/root/s_curve_ws/build/sensor_fusion_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_fusion_pkg build --build-base /root/s_curve_ws/build/sensor_fusion_pkg/build install --record /root/s_curve_ws/build/sensor_fusion_pkg/install.log --single-version-externally-managed install_data
+[3.607s] running egg_info
+[3.607s] writing ../../build/sensor_fusion_pkg/sensor_fusion_pkg.egg-info/PKG-INFO
+[3.607s] writing dependency_links to ../../build/sensor_fusion_pkg/sensor_fusion_pkg.egg-info/dependency_links.txt
+[3.608s] writing entry points to ../../build/sensor_fusion_pkg/sensor_fusion_pkg.egg-info/entry_points.txt
+[3.614s] writing requirements to ../../build/sensor_fusion_pkg/sensor_fusion_pkg.egg-info/requires.txt
+[3.614s] writing top-level names to ../../build/sensor_fusion_pkg/sensor_fusion_pkg.egg-info/top_level.txt
+[3.616s] reading manifest file '../../build/sensor_fusion_pkg/sensor_fusion_pkg.egg-info/SOURCES.txt'
+[3.616s] writing manifest file '../../build/sensor_fusion_pkg/sensor_fusion_pkg.egg-info/SOURCES.txt'
+[3.616s] running build
+[3.616s] running build_py
+[3.616s] running install
+[3.616s] running install_lib
+[3.668s] running install_data
+[3.668s] running install_egg_info
+[3.669s] removing '/root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages/sensor_fusion_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.669s] Copying ../../build/sensor_fusion_pkg/sensor_fusion_pkg.egg-info to /root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages/sensor_fusion_pkg-0.0.0-py3.10.egg-info
+[3.669s] running install_scripts
+[3.736s] Installing sensor_fusion_node script to /root/s_curve_ws/install/sensor_fusion_pkg/lib/sensor_fusion_pkg
+[3.737s] writing list of installed files to '/root/s_curve_ws/build/sensor_fusion_pkg/install.log'
+[3.780s] Invoked command in '/root/s_curve_ws/src/sensor_fusion_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/sensor_fusion_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_fusion_pkg build --build-base /root/s_curve_ws/build/sensor_fusion_pkg/build install --record /root/s_curve_ws/build/sensor_fusion_pkg/install.log --single-version-externally-managed install_data

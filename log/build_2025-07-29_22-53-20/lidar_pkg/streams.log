@@ -1,0 +1,17 @@
+[2.604s] Invoking command in '/root/s_curve_ws/build/lidar_pkg': PYTHONPATH=/root/s_curve_ws/build/lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/lidar_pkg/build --no-deps symlink_data
+[3.336s] running develop
+[3.565s] running egg_info
+[3.565s] writing lidar_pkg.egg-info/PKG-INFO
+[3.566s] writing dependency_links to lidar_pkg.egg-info/dependency_links.txt
+[3.566s] writing entry points to lidar_pkg.egg-info/entry_points.txt
+[3.566s] writing requirements to lidar_pkg.egg-info/requires.txt
+[3.566s] writing top-level names to lidar_pkg.egg-info/top_level.txt
+[3.566s] reading manifest file 'lidar_pkg.egg-info/SOURCES.txt'
+[3.568s] writing manifest file 'lidar_pkg.egg-info/SOURCES.txt'
+[3.569s] running build_ext
+[3.575s] Creating /root/s_curve_ws/install/lidar_pkg/lib/python3.10/site-packages/lidar-pkg.egg-link (link to .)
+[3.575s] Installing lidar_sensor_node script to /root/s_curve_ws/install/lidar_pkg/lib/lidar_pkg
+[3.575s] 
+[3.575s] Installed /root/s_curve_ws/build/lidar_pkg
+[3.576s] running symlink_data
+[3.661s] Invoked command in '/root/s_curve_ws/build/lidar_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/lidar_pkg/build --no-deps symlink_data

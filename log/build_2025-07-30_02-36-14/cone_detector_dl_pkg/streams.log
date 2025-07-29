@@ -1,0 +1,21 @@
+[4.590s] Invoking command in '/root/s_curve_ws/src/cone_detector_dl_pkg': PYTHONPATH=/root/s_curve_ws/build/cone_detector_dl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cone_detector_dl_pkg build --build-base /root/s_curve_ws/build/cone_detector_dl_pkg/build install --record /root/s_curve_ws/build/cone_detector_dl_pkg/install.log --single-version-externally-managed install_data
+[5.233s] running egg_info
+[5.235s] writing ../../build/cone_detector_dl_pkg/cone_detector_dl_pkg.egg-info/PKG-INFO
+[5.235s] writing dependency_links to ../../build/cone_detector_dl_pkg/cone_detector_dl_pkg.egg-info/dependency_links.txt
+[5.236s] writing entry points to ../../build/cone_detector_dl_pkg/cone_detector_dl_pkg.egg-info/entry_points.txt
+[5.237s] writing requirements to ../../build/cone_detector_dl_pkg/cone_detector_dl_pkg.egg-info/requires.txt
+[5.237s] writing top-level names to ../../build/cone_detector_dl_pkg/cone_detector_dl_pkg.egg-info/top_level.txt
+[5.241s] reading manifest file '../../build/cone_detector_dl_pkg/cone_detector_dl_pkg.egg-info/SOURCES.txt'
+[5.266s] writing manifest file '../../build/cone_detector_dl_pkg/cone_detector_dl_pkg.egg-info/SOURCES.txt'
+[5.266s] running build
+[5.266s] running build_py
+[5.267s] running install
+[5.267s] running install_lib
+[5.271s] running install_data
+[5.272s] running install_egg_info
+[5.277s] removing '/root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages/cone_detector_dl_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.279s] Copying ../../build/cone_detector_dl_pkg/cone_detector_dl_pkg.egg-info to /root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages/cone_detector_dl_pkg-0.0.0-py3.10.egg-info
+[5.295s] running install_scripts
+[5.352s] Installing cone_detector_node script to /root/s_curve_ws/install/cone_detector_dl_pkg/lib/cone_detector_dl_pkg
+[5.353s] writing list of installed files to '/root/s_curve_ws/build/cone_detector_dl_pkg/install.log'
+[5.532s] Invoked command in '/root/s_curve_ws/src/cone_detector_dl_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/cone_detector_dl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cone_detector_dl_pkg build --build-base /root/s_curve_ws/build/cone_detector_dl_pkg/build install --record /root/s_curve_ws/build/cone_detector_dl_pkg/install.log --single-version-externally-managed install_data

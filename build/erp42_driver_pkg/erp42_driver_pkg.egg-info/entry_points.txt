@@ -1,0 +1,3 @@
+[console_scripts]
+erp42_driver_node = erp42_driver_pkg.erp42_driver_node:main
+

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating control_pkg.egg-info
+writing control_pkg.egg-info/PKG-INFO
+writing dependency_links to control_pkg.egg-info/dependency_links.txt
+writing entry points to control_pkg.egg-info/entry_points.txt
+writing requirements to control_pkg.egg-info/requires.txt
+writing top-level names to control_pkg.egg-info/top_level.txt
+writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+reading manifest file 'control_pkg.egg-info/SOURCES.txt'
+writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/s_curve_ws/install/control_pkg/lib/python3.10/site-packages/control-pkg.egg-link (link to .)
+Installing control_node script to /root/s_curve_ws/install/control_pkg/lib/control_pkg
+
+Installed /root/s_curve_ws/build/control_pkg
+running symlink_data
+creating /root/s_curve_ws/install/control_pkg/share/ament_index
+creating /root/s_curve_ws/install/control_pkg/share/ament_index/resource_index
+creating /root/s_curve_ws/install/control_pkg/share/ament_index/resource_index/packages
+symbolically linking /root/s_curve_ws/build/control_pkg/resource/control_pkg -> /root/s_curve_ws/install/control_pkg/share/ament_index/resource_index/packages
+symbolically linking /root/s_curve_ws/build/control_pkg/package.xml -> /root/s_curve_ws/install/control_pkg/share/control_pkg

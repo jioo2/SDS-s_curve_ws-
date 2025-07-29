@@ -1,0 +1,17 @@
+[2.720s] Invoking command in '/root/s_curve_ws/build/sensor_fusion_pkg': PYTHONPATH=/root/s_curve_ws/build/sensor_fusion_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/sensor_fusion_pkg/build --no-deps symlink_data
+[3.428s] running develop
+[3.614s] running egg_info
+[3.614s] writing sensor_fusion_pkg.egg-info/PKG-INFO
+[3.615s] writing dependency_links to sensor_fusion_pkg.egg-info/dependency_links.txt
+[3.615s] writing entry points to sensor_fusion_pkg.egg-info/entry_points.txt
+[3.615s] writing requirements to sensor_fusion_pkg.egg-info/requires.txt
+[3.615s] writing top-level names to sensor_fusion_pkg.egg-info/top_level.txt
+[3.615s] reading manifest file 'sensor_fusion_pkg.egg-info/SOURCES.txt'
+[3.616s] writing manifest file 'sensor_fusion_pkg.egg-info/SOURCES.txt'
+[3.616s] running build_ext
+[3.616s] Creating /root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages/sensor-fusion-pkg.egg-link (link to .)
+[3.617s] Installing sensor_fusion_node script to /root/s_curve_ws/install/sensor_fusion_pkg/lib/sensor_fusion_pkg
+[3.617s] 
+[3.617s] Installed /root/s_curve_ws/build/sensor_fusion_pkg
+[3.617s] running symlink_data
+[3.661s] Invoked command in '/root/s_curve_ws/build/sensor_fusion_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/sensor_fusion_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/sensor_fusion_pkg/build --no-deps symlink_data

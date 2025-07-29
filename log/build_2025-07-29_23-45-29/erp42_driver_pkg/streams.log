@@ -1,0 +1,17 @@
+[3.177s] Invoking command in '/root/s_curve_ws/build/erp42_driver_pkg': PYTHONPATH=/root/s_curve_ws/build/erp42_driver_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/erp42_driver_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/erp42_driver_pkg/build --no-deps symlink_data
+[3.807s] running develop
+[4.184s] running egg_info
+[4.184s] writing erp42_driver_pkg.egg-info/PKG-INFO
+[4.185s] writing dependency_links to erp42_driver_pkg.egg-info/dependency_links.txt
+[4.185s] writing entry points to erp42_driver_pkg.egg-info/entry_points.txt
+[4.185s] writing requirements to erp42_driver_pkg.egg-info/requires.txt
+[4.185s] writing top-level names to erp42_driver_pkg.egg-info/top_level.txt
+[4.185s] reading manifest file 'erp42_driver_pkg.egg-info/SOURCES.txt'
+[4.185s] writing manifest file 'erp42_driver_pkg.egg-info/SOURCES.txt'
+[4.185s] running build_ext
+[4.185s] Creating /root/s_curve_ws/install/erp42_driver_pkg/lib/python3.10/site-packages/erp42-driver-pkg.egg-link (link to .)
+[4.185s] Installing erp42_driver_node script to /root/s_curve_ws/install/erp42_driver_pkg/lib/erp42_driver_pkg
+[4.185s] 
+[4.185s] Installed /root/s_curve_ws/build/erp42_driver_pkg
+[4.185s] running symlink_data
+[4.212s] Invoked command in '/root/s_curve_ws/build/erp42_driver_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/erp42_driver_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/erp42_driver_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/erp42_driver_pkg/build --no-deps symlink_data

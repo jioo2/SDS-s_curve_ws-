@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/erp42_driver_pkg/erp42_driver_pkg.egg-info/PKG-INFO
+../../build/erp42_driver_pkg/erp42_driver_pkg.egg-info/SOURCES.txt
+../../build/erp42_driver_pkg/erp42_driver_pkg.egg-info/dependency_links.txt
+../../build/erp42_driver_pkg/erp42_driver_pkg.egg-info/entry_points.txt
+../../build/erp42_driver_pkg/erp42_driver_pkg.egg-info/requires.txt
+../../build/erp42_driver_pkg/erp42_driver_pkg.egg-info/top_level.txt
+../../build/erp42_driver_pkg/erp42_driver_pkg.egg-info/zip-safe
+erp42_driver_pkg/__init__.py
+erp42_driver_pkg/erp42_driver_node.py
+resource/erp42_driver_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

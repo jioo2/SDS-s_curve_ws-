@@ -1,0 +1,21 @@
+[3.072s] Invoking command in '/root/s_curve_ws/src/perception_pkg': PYTHONPATH=/root/s_curve_ws/build/perception_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/perception_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception_pkg build --build-base /root/s_curve_ws/build/perception_pkg/build install --record /root/s_curve_ws/build/perception_pkg/install.log --single-version-externally-managed install_data
+[3.587s] running egg_info
+[3.597s] writing ../../build/perception_pkg/perception_pkg.egg-info/PKG-INFO
+[3.597s] writing dependency_links to ../../build/perception_pkg/perception_pkg.egg-info/dependency_links.txt
+[3.597s] writing entry points to ../../build/perception_pkg/perception_pkg.egg-info/entry_points.txt
+[3.598s] writing requirements to ../../build/perception_pkg/perception_pkg.egg-info/requires.txt
+[3.610s] writing top-level names to ../../build/perception_pkg/perception_pkg.egg-info/top_level.txt
+[3.610s] reading manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'
+[3.610s] writing manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'
+[3.610s] running build
+[3.610s] running build_py
+[3.611s] running install
+[3.611s] running install_lib
+[3.616s] running install_data
+[3.616s] running install_egg_info
+[3.617s] removing '/root/s_curve_ws/install/perception_pkg/lib/python3.10/site-packages/perception_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.628s] Copying ../../build/perception_pkg/perception_pkg.egg-info to /root/s_curve_ws/install/perception_pkg/lib/python3.10/site-packages/perception_pkg-0.0.0-py3.10.egg-info
+[3.637s] running install_scripts
+[3.736s] Installing perception_node script to /root/s_curve_ws/install/perception_pkg/lib/perception_pkg
+[3.736s] writing list of installed files to '/root/s_curve_ws/build/perception_pkg/install.log'
+[3.784s] Invoked command in '/root/s_curve_ws/src/perception_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/perception_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/perception_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception_pkg build --build-base /root/s_curve_ws/build/perception_pkg/build install --record /root/s_curve_ws/build/perception_pkg/install.log --single-version-externally-managed install_data

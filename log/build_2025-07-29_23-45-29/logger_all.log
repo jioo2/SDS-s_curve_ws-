@@ -1,0 +1,862 @@
+[0.339s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.339s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7870065c7040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7870065c66b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7870065c66b0>>)
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.648s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/s_curve_ws'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_detector_dl_pkg) by extension 'ros'
+[0.670s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cone_detector_dl_pkg' with type 'ros.ament_python' and name 'cone_detector_dl_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_pkg' with type 'ros.ament_python' and name 'control_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp42_driver_pkg) by extension 'ros'
+[0.673s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erp42_driver_pkg' with type 'ros.ament_python' and name 'erp42_driver_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'ignore_ament_install'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extensions ['colcon_pkg']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'colcon_pkg'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extensions ['colcon_meta']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'colcon_meta'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extensions ['ros']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'ros'
+[0.676s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_pkg' with type 'ros.ament_python' and name 'lidar_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extension 'ignore_ament_install'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extensions ['colcon_pkg']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extension 'colcon_pkg'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extensions ['colcon_meta']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extension 'colcon_meta'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extensions ['ros']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_generation_pkg) by extension 'ros'
+[0.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_generation_pkg' with type 'ros.ament_python' and name 'path_generation_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extensions ['colcon_pkg']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'colcon_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extensions ['colcon_meta']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'ros'
+[0.680s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pkg' with type 'ros.ament_python' and name 'perception_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/s_curve_launch_pkg) by extension 'ros'
+[0.681s] DEBUG:colcon.colcon_core.package_identification:Package 'src/s_curve_launch_pkg' with type 'ros.ament_python' and name 's_curve_launch_pkg'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extensions ['colcon_pkg']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extension 'colcon_pkg'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extensions ['colcon_meta']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extension 'colcon_meta'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extensions ['ros']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_pkg) by extension 'ros'
+[0.682s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_fusion_pkg' with type 'ros.ament_python' and name 'sensor_fusion_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[0.687s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extension 'ignore_ament_install'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extensions ['colcon_pkg']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extension 'colcon_pkg'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extensions ['colcon_meta']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extension 'colcon_meta'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extensions ['ros']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extension 'ros'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extensions ['cmake', 'python']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extension 'cmake'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extension 'python'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extensions ['python_setup_py']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo) by extension 'python_setup_py'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extension 'ignore_ament_install'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extensions ['colcon_pkg']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extension 'colcon_pkg'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extensions ['colcon_meta']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extension 'colcon_meta'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extensions ['ros']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extension 'ros'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extensions ['cmake', 'python']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extension 'cmake'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extension 'python'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extensions ['python_setup_py']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/classify) by extension 'python_setup_py'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extension 'ignore'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extension 'ignore_ament_install'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extensions ['colcon_pkg']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extension 'colcon_pkg'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extensions ['colcon_meta']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extension 'colcon_meta'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extensions ['ros']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extension 'ros'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extensions ['cmake', 'python']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extension 'cmake'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extension 'python'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extensions ['python_setup_py']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data) by extension 'python_setup_py'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extension 'colcon_meta'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extensions ['ros']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extension 'ros'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extensions ['cmake', 'python']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extension 'cmake'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extension 'python'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extensions ['python_setup_py']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/hyps) by extension 'python_setup_py'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extension 'ignore'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extension 'ignore_ament_install'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extensions ['colcon_pkg']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extension 'colcon_pkg'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extensions ['colcon_meta']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extension 'ros'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extensions ['cmake', 'python']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extension 'cmake'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extension 'python'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extensions ['python_setup_py']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/images) by extension 'python_setup_py'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extensions ['ros']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extension 'ros'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extensions ['cmake', 'python']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extension 'cmake'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extension 'python'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extensions ['python_setup_py']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/data/scripts) by extension 'python_setup_py'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extension 'ignore'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extension 'ignore_ament_install'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extensions ['colcon_pkg']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extensions ['colcon_meta']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extension 'ros'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extensions ['cmake', 'python']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extension 'cmake'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extension 'python'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extensions ['python_setup_py']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models) by extension 'python_setup_py'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extension 'ignore_ament_install'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extensions ['colcon_pkg']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extension 'colcon_pkg'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extensions ['colcon_meta']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extension 'colcon_meta'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extensions ['ros']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extension 'ros'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extensions ['cmake', 'python']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extension 'cmake'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extension 'python'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extensions ['python_setup_py']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/hub) by extension 'python_setup_py'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extension 'ignore'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extension 'ignore_ament_install'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extensions ['colcon_pkg']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extension 'colcon_pkg'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extensions ['colcon_meta']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extension 'colcon_meta'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extensions ['ros']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extension 'ros'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extensions ['cmake', 'python']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extension 'cmake'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extension 'python'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extensions ['python_setup_py']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/models/segment) by extension 'python_setup_py'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extensions ['ignore', 'ignore_ament_install']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extension 'ignore'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extension 'ignore_ament_install'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extensions ['colcon_pkg']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extension 'colcon_pkg'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extensions ['colcon_meta']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extension 'ros'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extensions ['cmake', 'python']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extension 'cmake'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extension 'python'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extensions ['python_setup_py']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/segment) by extension 'python_setup_py'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extension 'ignore'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extension 'ignore_ament_install'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extensions ['colcon_pkg']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extension 'colcon_pkg'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extensions ['colcon_meta']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extension 'ros'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extensions ['cmake', 'python']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extension 'cmake'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extension 'python'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extensions ['python_setup_py']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils) by extension 'python_setup_py'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extension 'ignore_ament_install'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extensions ['colcon_pkg']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extension 'colcon_pkg'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extensions ['colcon_meta']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extension 'colcon_meta'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extensions ['ros']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extension 'ros'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extensions ['cmake', 'python']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extension 'cmake'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extension 'python'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extensions ['python_setup_py']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/aws) by extension 'python_setup_py'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extension 'ignore_ament_install'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extensions ['colcon_pkg']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extension 'colcon_pkg'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extensions ['colcon_meta']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extension 'colcon_meta'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extensions ['ros']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extension 'ros'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extensions ['cmake', 'python']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extension 'cmake'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extension 'python'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extensions ['python_setup_py']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/docker) by extension 'python_setup_py'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extension 'colcon_meta'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extensions ['ros']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extension 'ros'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extensions ['cmake', 'python']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extension 'cmake'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extension 'python'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extensions ['python_setup_py']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/flask_rest_api) by extension 'python_setup_py'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extension 'ignore_ament_install'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extension 'ros'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extensions ['cmake', 'python']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extension 'cmake'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extension 'python'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extensions ['python_setup_py']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/google_app_engine) by extension 'python_setup_py'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extension 'ros'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extensions ['cmake', 'python']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extension 'cmake'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extension 'python'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extensions ['python_setup_py']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers) by extension 'python_setup_py'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extensions ['ignore', 'ignore_ament_install']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extension 'ignore'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extension 'ignore_ament_install'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extensions ['colcon_pkg']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extension 'colcon_pkg'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extensions ['colcon_meta']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extension 'colcon_meta'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extensions ['ros']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extension 'ros'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extensions ['cmake', 'python']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extension 'cmake'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extension 'python'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extensions ['python_setup_py']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/clearml) by extension 'python_setup_py'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extension 'ros'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extensions ['cmake', 'python']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extension 'cmake'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extension 'python'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extensions ['python_setup_py']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/comet) by extension 'python_setup_py'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extension 'ignore_ament_install'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extensions ['colcon_pkg']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extension 'colcon_pkg'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extensions ['colcon_meta']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extension 'colcon_meta'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extensions ['ros']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extension 'ros'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extensions ['cmake', 'python']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extension 'cmake'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extension 'python'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extensions ['python_setup_py']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/loggers/wandb) by extension 'python_setup_py'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extensions ['ignore', 'ignore_ament_install']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extension 'ignore_ament_install'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extensions ['colcon_pkg']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extension 'colcon_pkg'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extensions ['colcon_meta']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extension 'colcon_meta'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extensions ['ros']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extension 'ros'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extensions ['cmake', 'python']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extension 'cmake'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extension 'python'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extensions ['python_setup_py']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov5_repo/utils/segment) by extension 'python_setup_py'
+[0.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.755s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/humble
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'cone_detector_dl_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.821s] DEBUG:colcon.colcon_core.verb:Building package 'cone_detector_dl_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/cone_detector_dl_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/cone_detector_dl_pkg', 'merge_install': False, 'path': '/root/s_curve_ws/src/cone_detector_dl_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'control_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/control_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/control_pkg', 'merge_install': False, 'path': '/root/s_curve_ws/src/control_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'erp42_driver_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'erp42_driver_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/erp42_driver_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/erp42_driver_pkg', 'merge_install': False, 'path': '/root/s_curve_ws/src/erp42_driver_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/lidar_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/lidar_pkg', 'merge_install': False, 'path': '/root/s_curve_ws/src/lidar_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'path_generation_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'path_generation_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/path_generation_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/path_generation_pkg', 'merge_install': False, 'path': '/root/s_curve_ws/src/path_generation_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'perception_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/perception_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/perception_pkg', 'merge_install': False, 'path': '/root/s_curve_ws/src/perception_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 's_curve_launch_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] DEBUG:colcon.colcon_core.verb:Building package 's_curve_launch_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/s_curve_launch_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/s_curve_launch_pkg', 'merge_install': False, 'path': '/root/s_curve_ws/src/s_curve_launch_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_fusion_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/sensor_fusion_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/sensor_fusion_pkg', 'merge_install': False, 'path': '/root/s_curve_ws/src/sensor_fusion_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/s_curve_ws/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/s_curve_ws/install/usb_cam', 'merge_install': False, 'path': '/root/s_curve_ws/src/usb_cam', 'symlink_install': True, 'test_result_base': None}
+[0.826s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.828s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/s_curve_ws/src/cone_detector_dl_pkg' with build type 'ament_python'
+[0.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_detector_dl_pkg', 'ament_prefix_path')
+[0.838s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/ament_prefix_path.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/ament_prefix_path.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/ament_prefix_path.sh'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.853s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/s_curve_ws/src/control_pkg' with build type 'ament_python'
+[0.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'ament_prefix_path')
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/control_pkg/share/control_pkg/hook/ament_prefix_path.ps1'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/control_pkg/share/control_pkg/hook/ament_prefix_path.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/control_pkg/share/control_pkg/hook/ament_prefix_path.sh'
+[0.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.857s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.862s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/s_curve_ws/src/erp42_driver_pkg' with build type 'ament_python'
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp42_driver_pkg', 'ament_prefix_path')
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/hook/ament_prefix_path.ps1'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/hook/ament_prefix_path.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/hook/ament_prefix_path.sh'
+[0.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.871s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/s_curve_ws/src/lidar_pkg' with build type 'ament_python'
+[0.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_pkg', 'ament_prefix_path')
+[0.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/hook/ament_prefix_path.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/hook/ament_prefix_path.dsv'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/hook/ament_prefix_path.sh'
+[0.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.882s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/s_curve_ws/src/path_generation_pkg' with build type 'ament_python'
+[0.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_generation_pkg', 'ament_prefix_path')
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/hook/ament_prefix_path.ps1'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/hook/ament_prefix_path.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/hook/ament_prefix_path.sh'
+[0.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.889s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/s_curve_ws/src/perception_pkg' with build type 'ament_python'
+[0.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pkg', 'ament_prefix_path')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/hook/ament_prefix_path.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/hook/ament_prefix_path.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/hook/ament_prefix_path.sh'
+[0.894s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.898s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/s_curve_ws/src/s_curve_launch_pkg' with build type 'ament_python'
+[0.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('s_curve_launch_pkg', 'ament_prefix_path')
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/ament_prefix_path.ps1'
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/ament_prefix_path.dsv'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/ament_prefix_path.sh'
+[0.901s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.905s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/s_curve_ws/src/sensor_fusion_pkg' with build type 'ament_python'
+[0.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_fusion_pkg', 'ament_prefix_path')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/ament_prefix_path.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/ament_prefix_path.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/ament_prefix_path.sh'
+[0.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.207s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/s_curve_ws/src/cone_detector_dl_pkg'
+[1.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.475s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/s_curve_ws/src/control_pkg'
+[1.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.747s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/s_curve_ws/src/erp42_driver_pkg'
+[1.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.010s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/s_curve_ws/src/lidar_pkg'
+[2.010s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.010s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.267s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/s_curve_ws/src/path_generation_pkg'
+[2.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.533s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/s_curve_ws/src/perception_pkg'
+[2.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.788s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/s_curve_ws/src/s_curve_launch_pkg'
+[2.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.065s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/s_curve_ws/src/sensor_fusion_pkg'
+[3.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.066s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/cone_detector_dl_pkg': PYTHONPATH=/root/s_curve_ws/build/cone_detector_dl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/cone_detector_dl_pkg/build --no-deps symlink_data
+[4.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/path_generation_pkg': PYTHONPATH=/root/s_curve_ws/build/path_generation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/path_generation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/path_generation_pkg/build --no-deps symlink_data
+[4.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/control_pkg': PYTHONPATH=/root/s_curve_ws/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/control_pkg/build --no-deps symlink_data
+[4.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/perception_pkg': PYTHONPATH=/root/s_curve_ws/build/perception_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/perception_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/perception_pkg/build --no-deps symlink_data
+[4.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/s_curve_launch_pkg': PYTHONPATH=/root/s_curve_ws/build/s_curve_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/s_curve_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/s_curve_launch_pkg/build --no-deps symlink_data
+[4.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/erp42_driver_pkg': PYTHONPATH=/root/s_curve_ws/build/erp42_driver_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/erp42_driver_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/erp42_driver_pkg/build --no-deps symlink_data
+[4.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/lidar_pkg': PYTHONPATH=/root/s_curve_ws/build/lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/lidar_pkg/build --no-deps symlink_data
+[4.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/sensor_fusion_pkg': PYTHONPATH=/root/s_curve_ws/build/sensor_fusion_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/sensor_fusion_pkg/build --no-deps symlink_data
+[4.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_detector_dl_pkg', 'pythonpath_develop')
+[4.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/cone_detector_dl_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/cone_detector_dl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/cone_detector_dl_pkg/build --no-deps symlink_data
+[4.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/pythonpath_develop.ps1'
+[4.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/build/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/pythonpath_develop.dsv'
+[4.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/pythonpath_develop.sh'
+[4.925s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/cone_detector_dl_pkg' for CMake module files
+[4.927s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/cone_detector_dl_pkg' for CMake config files
+[4.930s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/cone_detector_dl_pkg/lib'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/cone_detector_dl_pkg/bin'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/cone_detector_dl_pkg/lib/pkgconfig/cone_detector_dl_pkg.pc'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/cone_detector_dl_pkg/lib/python3.10/site-packages'
+[4.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_detector_dl_pkg', 'pythonpath')
+[4.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/pythonpath.ps1'
+[4.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/pythonpath.dsv'
+[4.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/hook/pythonpath.sh'
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/cone_detector_dl_pkg/bin'
+[4.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cone_detector_dl_pkg)
+[4.938s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/package.ps1'
+[4.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/package.dsv'
+[4.944s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/package.sh'
+[4.946s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/package.bash'
+[4.947s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/cone_detector_dl_pkg/share/cone_detector_dl_pkg/package.zsh'
+[4.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/cone_detector_dl_pkg/share/colcon-core/packages/cone_detector_dl_pkg)
+[4.951s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/s_curve_ws/src/usb_cam' with build type 'ament_cmake'
+[4.951s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/s_curve_ws/src/usb_cam'
+[4.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'pythonpath_develop')
+[4.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/control_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/control_pkg/build --no-deps symlink_data
+[4.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/control_pkg/share/control_pkg/hook/pythonpath_develop.ps1'
+[4.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/build/control_pkg/share/control_pkg/hook/pythonpath_develop.dsv'
+[4.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/control_pkg/share/control_pkg/hook/pythonpath_develop.sh'
+[4.963s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/control_pkg' for CMake module files
+[4.964s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/control_pkg' for CMake config files
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/control_pkg/lib'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/control_pkg/bin'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/control_pkg/lib/pkgconfig/control_pkg.pc'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/control_pkg/lib/python3.10/site-packages'
+[4.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'pythonpath')
+[4.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/control_pkg/share/control_pkg/hook/pythonpath.ps1'
+[4.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/control_pkg/share/control_pkg/hook/pythonpath.dsv'
+[4.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/control_pkg/share/control_pkg/hook/pythonpath.sh'
+[4.968s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/control_pkg/bin'
+[4.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_pkg)
+[4.969s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/control_pkg/share/control_pkg/package.ps1'
+[4.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/control_pkg/share/control_pkg/package.dsv'
+[4.971s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/control_pkg/share/control_pkg/package.sh'
+[4.973s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/control_pkg/share/control_pkg/package.bash'
+[4.974s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/control_pkg/share/control_pkg/package.zsh'
+[4.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/control_pkg/share/colcon-core/packages/control_pkg)
+[4.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('s_curve_launch_pkg', 'pythonpath_develop')
+[4.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/pythonpath_develop.ps1'
+[4.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/s_curve_launch_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/s_curve_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/s_curve_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/s_curve_launch_pkg/build --no-deps symlink_data
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/build/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/pythonpath_develop.dsv'
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/pythonpath_develop.sh'
+[4.984s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/s_curve_launch_pkg' for CMake module files
+[4.985s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/s_curve_launch_pkg' for CMake config files
+[4.987s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/s_curve_launch_pkg/lib'
+[4.987s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/s_curve_launch_pkg/bin'
+[4.987s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/s_curve_launch_pkg/lib/pkgconfig/s_curve_launch_pkg.pc'
+[4.988s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/s_curve_launch_pkg/lib/python3.10/site-packages'
+[4.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('s_curve_launch_pkg', 'pythonpath')
+[4.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/pythonpath.ps1'
+[4.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/pythonpath.dsv'
+[4.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/hook/pythonpath.sh'
+[4.991s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/s_curve_launch_pkg/bin'
+[4.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(s_curve_launch_pkg)
+[4.992s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/package.ps1'
+[4.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/package.dsv'
+[4.994s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/package.sh'
+[4.996s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/package.bash'
+[4.997s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/s_curve_launch_pkg/share/s_curve_launch_pkg/package.zsh'
+[4.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/s_curve_launch_pkg/share/colcon-core/packages/s_curve_launch_pkg)
+[4.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_generation_pkg', 'pythonpath_develop')
+[4.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/path_generation_pkg/share/path_generation_pkg/hook/pythonpath_develop.ps1'
+[5.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/path_generation_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/path_generation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/path_generation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/path_generation_pkg/build --no-deps symlink_data
+[5.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/build/path_generation_pkg/share/path_generation_pkg/hook/pythonpath_develop.dsv'
+[5.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/path_generation_pkg/share/path_generation_pkg/hook/pythonpath_develop.sh'
+[5.004s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/path_generation_pkg' for CMake module files
+[5.006s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/path_generation_pkg' for CMake config files
+[5.008s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/path_generation_pkg/lib'
+[5.008s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/path_generation_pkg/bin'
+[5.008s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/path_generation_pkg/lib/pkgconfig/path_generation_pkg.pc'
+[5.009s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/path_generation_pkg/lib/python3.10/site-packages'
+[5.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_generation_pkg', 'pythonpath')
+[5.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/hook/pythonpath.ps1'
+[5.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/hook/pythonpath.dsv'
+[5.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/hook/pythonpath.sh'
+[5.012s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/path_generation_pkg/bin'
+[5.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_generation_pkg)
+[5.012s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/package.ps1'
+[5.014s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/package.dsv'
+[5.015s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/package.sh'
+[5.016s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/package.bash'
+[5.017s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/path_generation_pkg/share/path_generation_pkg/package.zsh'
+[5.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/path_generation_pkg/share/colcon-core/packages/path_generation_pkg)
+[5.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_pkg', 'pythonpath_develop')
+[5.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/lidar_pkg/share/lidar_pkg/hook/pythonpath_develop.ps1'
+[5.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/lidar_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/lidar_pkg/build --no-deps symlink_data
+[5.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/build/lidar_pkg/share/lidar_pkg/hook/pythonpath_develop.dsv'
+[5.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/lidar_pkg/share/lidar_pkg/hook/pythonpath_develop.sh'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/lidar_pkg' for CMake module files
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/lidar_pkg' for CMake config files
+[5.029s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/lidar_pkg/lib'
+[5.029s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/lidar_pkg/bin'
+[5.029s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/lidar_pkg/lib/pkgconfig/lidar_pkg.pc'
+[5.029s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/lidar_pkg/lib/python3.10/site-packages'
+[5.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_pkg', 'pythonpath')
+[5.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/hook/pythonpath.ps1'
+[5.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/hook/pythonpath.dsv'
+[5.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/hook/pythonpath.sh'
+[5.033s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/lidar_pkg/bin'
+[5.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_pkg)
+[5.034s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/package.ps1'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/package.dsv'
+[5.036s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/package.sh'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/package.bash'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/lidar_pkg/share/lidar_pkg/package.zsh'
+[5.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/lidar_pkg/share/colcon-core/packages/lidar_pkg)
+[5.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pkg', 'pythonpath_develop')
+[5.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/perception_pkg/share/perception_pkg/hook/pythonpath_develop.ps1'
+[5.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/s_curve_ws/build/usb_cam -- -j8 -l8
+[5.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/perception_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/perception_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/perception_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/perception_pkg/build --no-deps symlink_data
+[5.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/build/perception_pkg/share/perception_pkg/hook/pythonpath_develop.dsv'
+[5.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/perception_pkg/share/perception_pkg/hook/pythonpath_develop.sh'
+[5.058s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/perception_pkg' for CMake module files
+[5.059s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/perception_pkg' for CMake config files
+[5.062s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/perception_pkg/lib'
+[5.062s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/perception_pkg/bin'
+[5.062s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/perception_pkg/lib/pkgconfig/perception_pkg.pc'
+[5.062s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/perception_pkg/lib/python3.10/site-packages'
+[5.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pkg', 'pythonpath')
+[5.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/hook/pythonpath.ps1'
+[5.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/hook/pythonpath.dsv'
+[5.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/hook/pythonpath.sh'
+[5.065s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/perception_pkg/bin'
+[5.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_pkg)
+[5.066s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/package.ps1'
+[5.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/package.dsv'
+[5.068s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/package.sh'
+[5.069s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/package.bash'
+[5.070s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/perception_pkg/share/perception_pkg/package.zsh'
+[5.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/perception_pkg/share/colcon-core/packages/perception_pkg)
+[5.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp42_driver_pkg', 'pythonpath_develop')
+[5.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/erp42_driver_pkg/share/erp42_driver_pkg/hook/pythonpath_develop.ps1'
+[5.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/erp42_driver_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/erp42_driver_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/erp42_driver_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/erp42_driver_pkg/build --no-deps symlink_data
+[5.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/build/erp42_driver_pkg/share/erp42_driver_pkg/hook/pythonpath_develop.dsv'
+[5.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/erp42_driver_pkg/share/erp42_driver_pkg/hook/pythonpath_develop.sh'
+[5.076s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/erp42_driver_pkg' for CMake module files
+[5.077s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/erp42_driver_pkg' for CMake config files
+[5.078s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/erp42_driver_pkg/lib'
+[5.078s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/erp42_driver_pkg/bin'
+[5.078s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/erp42_driver_pkg/lib/pkgconfig/erp42_driver_pkg.pc'
+[5.079s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/erp42_driver_pkg/lib/python3.10/site-packages'
+[5.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp42_driver_pkg', 'pythonpath')
+[5.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/hook/pythonpath.ps1'
+[5.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/hook/pythonpath.dsv'
+[5.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/hook/pythonpath.sh'
+[5.082s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/erp42_driver_pkg/bin'
+[5.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp42_driver_pkg)
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/package.ps1'
+[5.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/package.dsv'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/package.sh'
+[5.086s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/package.bash'
+[5.087s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/erp42_driver_pkg/share/erp42_driver_pkg/package.zsh'
+[5.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/erp42_driver_pkg/share/colcon-core/packages/erp42_driver_pkg)
+[5.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_fusion_pkg', 'pythonpath_develop')
+[5.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/sensor_fusion_pkg' returned '0': PYTHONPATH=/root/s_curve_ws/build/sensor_fusion_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/s_curve_ws/build/sensor_fusion_pkg/build --no-deps symlink_data
+[5.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/pythonpath_develop.ps1'
+[5.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/build/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/pythonpath_develop.dsv'
+[5.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/build/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/pythonpath_develop.sh'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/sensor_fusion_pkg' for CMake module files
+[5.109s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/sensor_fusion_pkg' for CMake config files
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/sensor_fusion_pkg/lib'
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/sensor_fusion_pkg/bin'
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/sensor_fusion_pkg/lib/pkgconfig/sensor_fusion_pkg.pc'
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/sensor_fusion_pkg/lib/python3.10/site-packages'
+[5.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_fusion_pkg', 'pythonpath')
+[5.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/pythonpath.ps1'
+[5.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/pythonpath.dsv'
+[5.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/hook/pythonpath.sh'
+[5.113s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/sensor_fusion_pkg/bin'
+[5.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_fusion_pkg)
+[5.114s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/package.ps1'
+[5.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/package.dsv'
+[5.116s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/package.sh'
+[5.118s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/package.bash'
+[5.119s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/sensor_fusion_pkg/share/sensor_fusion_pkg/package.zsh'
+[5.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/sensor_fusion_pkg/share/colcon-core/packages/sensor_fusion_pkg)
+[5.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/s_curve_ws/build/usb_cam -- -j8 -l8
+[5.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/s_curve_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/s_curve_ws/build/usb_cam
+[5.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[5.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/s_curve_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/s_curve_ws/build/usb_cam
+[5.374s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam' for CMake module files
+[5.375s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam' for CMake config files
+[5.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[5.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[5.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[5.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[5.378s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/lib'
+[5.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[5.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[5.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[5.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[5.380s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/bin'
+[5.381s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[5.381s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/lib/python3.10/site-packages'
+[5.381s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/bin'
+[5.381s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.ps1'
+[5.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.dsv'
+[5.382s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.sh'
+[5.383s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.bash'
+[5.383s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.zsh'
+[5.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[5.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[5.385s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam' for CMake module files
+[5.386s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam' for CMake config files
+[5.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[5.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[5.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[5.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[5.393s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/lib'
+[5.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[5.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[5.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[5.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/s_curve_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[5.396s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/bin'
+[5.396s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[5.396s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/lib/python3.10/site-packages'
+[5.397s] Level 1:colcon.colcon_core.environment:checking '/root/s_curve_ws/install/usb_cam/bin'
+[5.397s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.ps1'
+[5.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.dsv'
+[5.398s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.sh'
+[5.399s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.bash'
+[5.400s] INFO:colcon.colcon_core.shell:Creating package script '/root/s_curve_ws/install/usb_cam/share/usb_cam/package.zsh'
+[5.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/s_curve_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[5.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.402s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.491s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.491s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.491s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.492s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.521s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.521s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/s_curve_ws/install/local_setup.ps1'
+[5.524s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/s_curve_ws/install/_local_setup_util_ps1.py'
+[5.530s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/s_curve_ws/install/setup.ps1'
+[5.532s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/s_curve_ws/install/local_setup.sh'
+[5.533s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/s_curve_ws/install/_local_setup_util_sh.py'
+[5.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/s_curve_ws/install/setup.sh'
+[5.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/s_curve_ws/install/local_setup.bash'
+[5.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/s_curve_ws/install/setup.bash'
+[5.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/s_curve_ws/install/local_setup.zsh'
+[5.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/s_curve_ws/install/setup.zsh'
